@@ -337,8 +337,6 @@
     if (qi !== -1) { base = href.slice(0, qi); q = href.slice(qi); }
     if (map[base]) {
       a.setAttribute('href', map[base] + q);
-      a.setAttribute('target', '_blank');
-      a.setAttribute('rel', 'noopener');
     }
   });
 })();
